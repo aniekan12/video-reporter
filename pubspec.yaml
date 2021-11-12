@@ -1,0 +1,92 @@
+name: frsc_presentation
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #firebase_auth
+  firebase_auth: ^3.2.0
+
+  #cloud_firestore
+  cloud_firestore: ^3.1.0
+
+  #chewie
+  chewie: ^1.2.2
+
+  firebase_core: ^1.10.0
+
+  #image_picker
+  image_picker: ^0.8.4+4
+
+  path: ^1.8.0
+
+  path_provider: ^2.0.6
+
+  #video_player
+  video_player: ^2.2.6
+
+  #video_thumbnail
+  video_thumbnail: ^0.4.3
+
+  #getit
+  get_it: ^7.2.0
+
+  #internationalization
+  intl: ^0.17.0
+
+  #firebase storage
+  firebase_storage: ^10.1.0
+
+
+
+  #provider
+  provider: ^5.0.0
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
+
+ 
+  assets:
+    - assets/fonts/
+   
+  
+  fonts:
+    - family: BR Firma
+      fonts:
+        - asset: assets/fonts/BR Firma Regular.otf
+        - asset: assets/fonts/BR Firma Black.otf
+        - asset: assets/fonts/BR Firma Black Italic.otf
+        - asset: assets/fonts/BR Firma Bold Italic.otf
+        - asset: assets/fonts/BR Firma Bold.otf
+        - asset: assets/fonts/BR Firma Extra Light Italic.otf
+        - asset: assets/fonts/BR Firma Extra Light.otf
+        - asset: assets/fonts/BR Firma Light Italic.otf
+        - asset: assets/fonts/BR Firma Light.otf
+        - asset: assets/fonts/BR Firma Medium Italic.otf
+        - asset: assets/fonts/BR Firma Medium.otf
+        - asset: assets/fonts/BR Firma Regular Italic.otf
+        - asset: assets/fonts/BR Firma Regular.otf
+        - asset: assets/fonts/BR Firma SemiBold Italic.otf
+        - asset: assets/fonts/BR Firma Semibold.otf
+        - asset: assets/fonts/BR Firma Thin Italic.otf
+        - asset: assets/fonts/BR Firma Thin.otf
+  
+
